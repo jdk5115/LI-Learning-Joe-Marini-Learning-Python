@@ -14,8 +14,8 @@ print(zipfile.is_zipfile("archive.zip"))
 
 # TODO: Read the properties of a ZIP archive
 zfile = zipfile.ZipFile("archive.zip")
-print(zfile.namelist())
-print(zfile.infolist)
+# print(zfile.namelist())
+# print(zfile.infolist)
 
 # TODO: Read the properties of ZIP contents
 zinfo = zfile.getinfo("file1.txt")
